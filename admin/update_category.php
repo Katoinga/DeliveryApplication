@@ -72,12 +72,12 @@ if(isset($_POST['submit'] ))
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="dashboard.php">
                         <!-- Logo icon -->
                         <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                        <span><label>Admin </label></span>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -149,10 +149,7 @@ if(isset($_POST['submit'] ))
                     <ul class="navbar-nav my-lg-0">
 
                         <!-- Search -->
-                        <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
-                        </li>
+                        
                         <!-- Comment -->
                         <li class="nav-item dropdown">
                            
@@ -322,8 +319,8 @@ if(isset($_POST['submit'] ))
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
-                <div class="col-md-7 align-self-center">
+<h3 >Dashboard</h3> 
+                </div>                <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
@@ -398,7 +395,6 @@ if(isset($_POST['submit'] ))
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

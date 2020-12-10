@@ -42,12 +42,12 @@ session_start();
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="dashboard.php">
                         <!-- Logo icon -->
                         <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                        <span><label>Admin </label></span>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -64,10 +64,7 @@ session_start();
                     <ul class="navbar-nav my-lg-0">
 
                         <!-- Search -->
-                        <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
-                        </li>
+                        
                         <!-- Comment -->
                         <li class="nav-item dropdown">
                            
@@ -158,8 +155,8 @@ session_start();
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
-                
+<h3 >Dashboard</h3> 
+                </div>                
             </div>
             <!-- End Bread crumb -->
             <!-- Container fluid  -->
@@ -282,7 +279,6 @@ session_start();
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->

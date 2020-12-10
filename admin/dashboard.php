@@ -6,7 +6,7 @@ error_reporting(0);
 session_start();
 if(empty($_SESSION["adm_id"]))
 {
-	header('location:index.php');
+	header('location:dashboard.php');
 }
 else
 {
@@ -47,12 +47,12 @@ else
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="dashboard.php">
                         <!-- Logo icon -->
                         <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                        <span><label>Admin </label></span>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -69,10 +69,7 @@ else
                     <ul class="navbar-nav my-lg-0">
 
                         <!-- Search -->
-                        <li class="nav-item hidden-sm-down search-box"> <a class="nav-link hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-search"></i></a>
-                            <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search here"> <a class="srh-btn"><i class="ti-close"></i></a> </form>
-                        </li>
+                        
                         <!-- Comment -->
                         <li class="nav-item dropdown">
                            
@@ -163,7 +160,8 @@ else
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 >Dashboard</h3> 
+                </div>
                
             </div>
             <!-- End Bread crumb -->
@@ -176,7 +174,7 @@ else
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-archive f-s-40 color-warning"></i></span>
+                                    <span><i class="fa fa-archive f-s-40"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2><?php $sql="select * from restaurant";
@@ -212,7 +210,7 @@ else
                         <div class="card p-30">
                             <div class="media">
                                 <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-user f-s-40 color-danger"></i></span>
+                                    <span><i class="fa fa-user f-s-40"></i></span>
                                 </div>
                                 <div class="media-body media-text-right">
                                     <h2><?php $sql="select * from users";
@@ -262,7 +260,6 @@ else
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
