@@ -55,7 +55,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.php">
                         <!-- Logo icon -->
                         <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
