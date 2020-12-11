@@ -15,7 +15,7 @@ session_start();
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <title>Admin Delivery</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -181,7 +181,7 @@ session_start();
                                             <tr>
 											 <th>Restaurant</th>
                                                 <th>Dish-Name</th>
-                                                <th>Slogan</th>
+                                                <th>Description</th>
                                                 <th>Price</th>
                                                 <th>Image</th>
                                                <th>Action</th>
