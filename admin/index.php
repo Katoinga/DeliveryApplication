@@ -112,7 +112,7 @@ if(isset($_POST['submit1'] ))
   
 <div class="container">
   <div class="info">
-    <h1>Administration </h1><span> login Account</span>
+    <h1>Admin </h1>
   </div>
 </div>
 <div class="form">
