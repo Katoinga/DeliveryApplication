@@ -32,7 +32,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 	{
 		$message = "Password Must be >=6";
 	}
-	elseif(strlen($_POST['phone']) < 10)  //cal phone length
+	elseif(strlen($_POST['phone']) < 9)  //cal phone length
 	{
 		$message = "invalid phone number!";
 	}

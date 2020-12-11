@@ -2146,7 +2146,7 @@ textarea {
   margin-bottom: 30px;
 }
 .card .card-subtitle {
-  color: #99abb4;
+  color: #5c4ac7;
   font-weight: 300;
   margin-bottom: 15px;
 }
@@ -2175,8 +2175,8 @@ textarea {
   border-color: #ffb22b;
 }
 .card-info {
-  background: #ffffff none repeat scroll 0 0;
-  border-color: #ffffff;
+  background: #5c4ac7 none repeat scroll 0 0;
+  border-color: #5c4ac7;
 }
 .card-primary {
   background: #5c4ac7 none repeat scroll 0 0;
@@ -2210,10 +2210,10 @@ textarea {
   transition: height 0.08s ease 0s;
 }
 .card-outline-info {
-  border-color: #ffffff;
+  border-color: #5c4ac7;
 }
 .card-outline-info .card-header {
-  background: #ffffff none repeat scroll 0 0;
+  background: #5c4ac7 none repeat scroll 0 0;
   border-color: #ffffff;
 }
 .card-outline-inverse {

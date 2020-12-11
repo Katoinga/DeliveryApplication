@@ -46,7 +46,7 @@ if(isset($_POST['submit'] ))
 															</div>';
 	}
 	
-	elseif(strlen($_POST['phone']) < 10)
+	elseif(strlen($_POST['phone']) < 9)
 	{
 		$error = '<div class="alert alert-danger alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -91,7 +91,7 @@ if(isset($_POST['submit'] ))
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <title>Admin Delivery</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->

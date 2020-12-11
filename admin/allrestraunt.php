@@ -251,7 +251,7 @@ session_start();
 																								
 																								<td>'.$rows['date'].'</td>
 																									 <td><a href="delete_stores.php?res_del='.$rows['rs_id'].'" class="btn btn-danger btn-flat btn-addon btn-xs m-b-10"><i class="fa fa-trash-o" style="font-size:16px"></i></a> 
-																									 <a href="update_restraunt.php?res_upd='.$rows['rs_id'].'" class="btn btn-info btn-flat btn-addon btn-sm m-b-10 m-l-5"><i class="ti-settings"></i></a>
+																									 <a href="update_restraunt.php?res_upd='.$rows['rs_id'].'" class="btn btn-danger btn-flat btn-addon btn-sm m-b-10 m-l-5"><i class="ti-settings"></i></a>
 																									</td></tr>';
 																					 
 																						
