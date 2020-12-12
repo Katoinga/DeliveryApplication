@@ -31,7 +31,7 @@ session_start(); //start temp session until logout/browser closed
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/logo.PNG" alt="" width="180" height="50"> </a>
+                    <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -297,51 +297,7 @@ session_start(); //start temp session until logout/browser closed
         </section>
 
         <!-- start: FOOTER -->
-        <footer class="footer">
-            <div class="container">
-                <!-- top footer statrs -->
-                <div class="row top-footer">
-                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
-                        <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Sistema de pedidos delivery</span> </div>
-                    <div class="col-xs-12 col-sm-2 about color-gray">
-                        <h5>Contactanos</h5>
-                        <ul>
-                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
-                        <h5>¿Como funciona?</h5>
-                        <ul>
-                            <li><a href="#">Pon tu ubicacion</a> </li>
-                            <li><a href="#">Escoge un restaurante</a> </li>
-                            <li><a href="#">Escoge tu pedido</a> </li>
-                            <li><a href="#">Espera por el delivery</a> </li>
-                            <li><a href="#">Paga con efectivo </a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-sm-3 popular-locations color-gray">
-                        <h5>Llegamos a</h5>
-                        <ul>
-                            <li><a href="#">Cerro Coloradao</a> </li>
-                            <li><a href="#">Selva Alegre</a> </li>
-                            <li><a href="#">Arequipa</a> </li>
-                            <li><a href="#">Cayma</a> </li>
-                            <li><a href="#">Characato</a> </li>
-                            <li><a href="#">Jacobo hunter</a> </li>
-                            <li><a href="#">Miraflores</a> </li>
-                            <li><a href="#">Yanahuara</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- top footer ends -->
-
-                <!-- bottom footer ends -->
-            </div>
-        </footer>
+        
         <!-- end:Footer -->
 
     <!-- Bootstrap core JavaScript

@@ -98,23 +98,7 @@ session_start();
                               </h3>
                                     <div class="clearfix"></div>
                                 </div>
-                                <div class="widget-body">
-                                    <ul class="tags">
-                                        <li> <a href="#" class="tag">
-                                    Pizza
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sandwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sendwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Pescado
-                                    </a> </li>
-
-                                    </ul>
-                                </div>
+                               
                             </div>
                             <!-- end:Widget -->
                         </div>
@@ -176,16 +160,7 @@ session_start();
                     <div class="row top-footer">
                         <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
                             <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Sistema de pedidos delivery</span> </div>
-                        <div class="col-xs-12 col-sm-2 about color-gray">
-                            <h5>Contactanos</h5>
-                            <ul>
-                                <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                                <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                                <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                                <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                                <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-                            </ul>
-                        </div>
+                        
                         <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
                             <h5>¿Como funciona?</h5>
                             <ul>
