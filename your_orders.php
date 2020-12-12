@@ -218,28 +218,7 @@ only screen and (max-width: 760px),
                         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
 
 
-                            <div class="widget clearfix">
-                                <!-- /widget heading -->
-                                <div class="widget-heading">
-                                    <h3 class="widget-title text-dark">
-                                 Categorias populares
-                              </h3>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="widget-body">
-                                    <ul class="tags">
-                                        <li> <a href="#" class="tag">
-                                    Pizza
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sandwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Pescado
-
-                                    </ul>
-                                </div>
-                            </div>
+                            
                             <!-- end:Widget -->
                         </div>
                         <div class="col-xs-12 col-sm-7 col-md-7 ">
@@ -279,7 +258,7 @@ only screen and (max-width: 760px),
 												<tr>
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
-														  <td data-column="price">$<?php echo $row['price']; ?></td>
+														  <td data-column="price">S/.<?php echo $row['price']; ?></td>
 														   <td data-column="status">
 														   <?php
 																			$status=$row['status'];
@@ -354,16 +333,7 @@ only screen and (max-width: 760px),
 		                <div class="row top-footer">
 		                    <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
 		                        <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Sistema de pedidos delivery</span> </div>
-		                    <div class="col-xs-12 col-sm-2 about color-gray">
-		                        <h5>Contactanos</h5>
-		                        <ul>
-		                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-		                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-		                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-		                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-		                            <li><a href="#">Emilio F. Valdivia Cisneros</a> </li>
-		                        </ul>
-		                    </div>
+		                     
 		                    <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
 		                        <h5>¿Como funciona?</h5>
 		                        <ul>
