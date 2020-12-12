@@ -14,7 +14,7 @@ session_start(); //start temp session until logout/browser closed
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>FoodPick-y</title>
+    <title>Secure Food</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@ session_start(); //start temp session until logout/browser closed
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
                     <h1>¿Quieres pedir algo? Es aquí</h1>
-                    <h5 class="font-white space-xs">Encuentra resturantes, comidas y obten descuentos</h5>
+                    <h5 class="font-white space-xs">Encuentra resturantes, comidas y obten descuentos, con todos los protocolos del COVID-19</h5>
                     <div class="banner-form">
                         <form class="form-inline">
 
@@ -176,7 +176,7 @@ session_start(); //start temp session until logout/browser closed
                                         </svg>
                                     </div>
                                     <h3>Escoge un restaurant</h3>
-                                    <p>Estamos asociados a más de 50 restaurants</p>
+                                    <p>Estamos asociados a más de 50 restaurants con protocolos COVID-19 aprovados por el gobierno</p>
                                 </div>
                             </div>
                         </div>
